@@ -1,4 +1,5 @@
 <?php
+	define( "ROOT_DIR", $_SERVER[ 'DOCUMENT_ROOT' ] );
 	
 	function SiteHeader( )
 	{
@@ -19,7 +20,7 @@
 		echo "			Copyright ".date( 'Y' )." Rico";
 		echo "		</td>";
 		echo "		<td style='text-align:right'>";
-		echo "			Git Version: ".file_get_contents("gitver");
+		echo "			Git Version: ".file_get_contents( ROOT_DIR."/gitver" );
 		echo "		</td>";
 		echo "	</tr>";
 		echo "</table>";
