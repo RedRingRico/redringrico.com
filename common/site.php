@@ -13,7 +13,16 @@
 	function SiteFooter( )
 	{
 		echo '<div id="footer">';
-		echo "	Copyright ".date( 'Y' )." Rico | Git Version: ".file_get_contents(gitver)."]";
+		echo "<table>";
+		echo "	<tr>";
+		echo "		<td>";
+		echo "			Copyright ".date( 'Y' )." Rico";
+		echo "		</td>";
+		echo "		<td>";
+		echo "			Git Version: ".file_get_contents("gitver");
+		echo "		</td>";
+		echo "	</tr>";
+		echo "</table>";
 		echo '</div>';
 	}
 ?>
