@@ -13,12 +13,12 @@
 	function SiteFooter( )
 	{
 		echo '<div id="footer">';
-		echo "<table>";
+		echo "<table style='width:100%'>";
 		echo "	<tr>";
 		echo "		<td>";
 		echo "			Copyright ".date( 'Y' )." Rico";
 		echo "		</td>";
-		echo "		<td>";
+		echo "		<td style='text-align:right'>";
 		echo "			Git Version: ".file_get_contents("gitver");
 		echo "		</td>";
 		echo "	</tr>";
