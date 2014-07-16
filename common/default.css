@@ -3,7 +3,7 @@ body
 {
 	margin: auto;
 	background:#900000;
-	color:#FFFF00;
+	color:#EEEE00;
 	font-family: 'VT323';
 	width: 770px;
 	padding: 0;
@@ -35,6 +35,19 @@ a:hover
 	text-align: center;
 	font-size: 25px;
 	padding-bottom: 30px;
+}
+
+#headerlink a
+{
+	color: #EEEE00;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+#headerlink a:hover
+{
+	color: #FFFF00;
+	font-size: 25px;
 }
 
 #body
