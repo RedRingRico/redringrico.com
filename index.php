@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Red Ring Rico's Game Programming Web Zone</title>
-		<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+		<?php SiteHead( ); ?>
 		<link href="common/default.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>

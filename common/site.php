@@ -1,6 +1,11 @@
 <?php
 	define( "ROOT_DIR", $_SERVER[ 'DOCUMENT_ROOT' ] );
 	
+	function SiteHead( )
+	{
+		echo '<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>';
+	}
+	
 	function SiteHeader( )
 	{
 		echo '<div id="header">';
