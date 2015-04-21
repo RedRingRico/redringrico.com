@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Red Ring Rico's Game Programming Web Zone</title>
-		<link href='http://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
 		<link href="../common/default.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
@@ -11,6 +11,31 @@
 
 			<div id="body">
 				<table style="width:100%">
+					<tr style="background-color:#BB0000; font-size:18px">
+						<td>Finally updating the website</td>
+						<td style="text-align:right">21|04|2015 @801</td>
+					</tr>
+					<tr style="background-color:#770000; font-size:14px">
+						<td colspan="2">
+							It's been almost a year since I started this site, and I'm embarrassed that I've let it decay for so long.
+							At the moment the site is completely static, the web log entries are edited and sent to the web server on the same page, instead of getting them from a database.
+							I have been reading a few website design and implementation books, mostly concerning JavaScript and PHP, which I'm rusty on.
+							My current goals are to make the web log entries easy to edit and create, get the Projects page showing a real game that I'm working on, and move my repositories from GitHub over here.
+							I want to get at least an initial web log system finished by the weekend.
+							Creating permalinks for web log entries, tags, and an archive view will most likely not be functional by the weekend.
+							A system for me to authenticate myself and post/edit entries will most likely be completed, though.
+							Unfortunately, this will put a few things on hold, such as the SEGA Saturn SDK, and my current game project, Killer.
+							<br/>
+							<br/>
+							About a month after I posted the first entry, <i>Repairing a SEGA Dreamcast Dev. Box [HKT-01] - Part 1</i>, I finished and fixed the development kit.
+							The entry after this one (using the new web log system) will be about that.
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" style="background-color:#AA0000; font-size:14px">
+							Tags: <a href="">Site updates</a>
+						</td>
+					</tr>
 					<tr style="background-color:#BB0000; font-size:18px">
 						<td>Repairing a SEGA Dreamcast Dev. Box [HKT-01] - Part 1</td>
 						<td style="text-align:right">17|07|2014 @647</td>
