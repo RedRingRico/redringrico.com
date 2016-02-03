@@ -66,7 +66,7 @@
 								</tr>
 								<tr>
 									<td><a href="https://github.com/SaturnSDK/Saturn-SDK-MSYS2">MSYS 2</a></td>
-									<td colspan=2/>
+									<td style="text-align:center" colspan="2">No GNU/Linux version</td>
 									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_msys2_w64-mingw32_i686/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_msys2_w64-mingw32_i686/badge/icon'></a></td>
 									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_msys2_w64-mingw32_x86_64/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_msys2_w64-mingw32_x86_64/badge/icon'></a></td>
 								</tr>
@@ -102,6 +102,46 @@
 					<tr style="background:#600000">
 						<!-- Platforms -->
 						<td colspan="2">Platforms: GNU/Linux, Windows</td>
+					</tr>
+				</table>
+
+				<table style="width:750px">
+					<tr style="background:#600000">
+						<!-- Main category / sub-category -->
+						<td colspan="2" style="font-size:20px">Game // Third-Person Shooter (in early development)</td>
+					</tr>
+					<tr style="background:#730000">
+						<!-- Title -->
+						<td colspan="2">[TERMINAL]</td>
+					</tr>
+					<tr style="background:#600000">
+						<!-- A small thumbnail of a screenshot/logo -->
+						<td><img src="terminal/thumbnail.png" width=128 height=128/></td>
+						<!-- Description -->
+						<td style="vertical-align:text-top;">
+							[TERMINAL] is a third-person shooter with a cyberpunk theme for the SEGA Dreamcast.
+						</td>
+					</tr>
+					<tr style="background:#730000">
+						<td colspan="2">
+							<table style="width:100%">
+								<tr>
+									<td><a href="https://github.com/RedRingRico/TERMINAL">Source Code Repository</a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/TERMINAL/job/terminal_dreamcast'><img src='https://ci.opengamedevelopers.org/view/TERMINAL/job/terminal_dreamcast/badge/icon'></a></td>
+								</tr>
+							</table>
+						</td>
+					</br>
+					<tr style="background:#600000">
+						<td colspan="2">
+							Download
+							<br/>
+							<a href="ftp://ftp.opengamedevelopers.org/terminal/builds/dreamcast/TERMINAL_latest.tar.xz">GDI</a>
+						</td>
+					</tr>
+					<tr style="background:#600000">
+						<!-- Platforms -->
+						<td colspan="2">Platforms: SEGA Dreamcast</td>
 					</tr>
 				</table>
 			</div>
