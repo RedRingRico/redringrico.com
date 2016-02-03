@@ -28,24 +28,56 @@
 						<!-- Description -->
 						<td style="vertical-align:text-top;">
 							The SEGA Saturn SDK (SSSDK) is a Free and Open Source software development kit for developing games on the SEGA Saturn.
+							<br/>
+							<a href="https://saturnsdk.github.io">Website</a>
 						</td>
 					</tr>
 					<tr style="background:#730000">
-						<td style="vertical-align:text-top">
-							<!--<a href="">Screenshots</a>-->
-						</td>
-						<td>
-							Source Code Repositories | <a href="https://ci.opengamedevelopers.org/view/SEGA Saturn SDK">Build Server</a>
-							<br/>
-							<a href="https://github.com/SaturnSDK/Saturn-SDK-GCC-SH2">GCC for SH-2</a>
-							<br/>
-							<a href="https://github.com/SaturnSDK/Saturn-SDK-GNU-Make">GNU Make</a>
-							<br/>
-							<a href="https://github.com/SaturnSDK/Saturn-SDK-IDE">Code::Blocks IDE for SSSDK</a>
-							<br/>
-							<a href="https://github.com/SaturnSDK/Saturn-SDK-MSYS2">MSYS 2 for SSSDK</a>
-							<br/>
-							<a href="https://github.com/SaturnSDK/Saturn-SDK-Installer">Installer</a>
+						<td colspan="2">
+							<table style="width:100%">
+								<tr>
+									<td>Source Code Repositories</td>
+
+									<td>GNU/Linux 32-bit</td>
+									<td>GNU/Linux 64-bit</td>
+									<td>Windows 32-bit</td>
+									<td>Windows 64-bit</td>
+								</tr>
+								<tr>
+									<td><a href="https://github.com/SaturnSDK/Saturn-SDK-GCC-SH2">GCC for SH-2</a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gcc_sh2_elf_linux_i686'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gcc_sh2_elf_linux_i686/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gcc_sh2_elf_linux_x86_64'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gcc_sh2_elf_linux_x86_64/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gcc_sh2_elf_w64-mingw32_i686'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gcc_sh2_elf_w64-mingw32_i686/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gcc_sh2_elf_w64-mingw32_x86_64'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gcc_sh2_elf_w64-mingw32_x86_64/badge/icon'></a></td>
+								</tr>
+								<tr>
+									<td><a href="https://github.com/SaturnSDK/Saturn-SDK-GNU-Make">GNU Make</a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gnu_make_linux_i686/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gnu_make_linux_i686/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gnu_make_linux_x86_64/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gnu_make_linux_x86_64/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gnu_make_w64-mingw32_i686/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gnu_make_w64-mingw32_i686/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gnu_make_w64-mingw32_x86_64/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_gnu_make_w64-mingw32_x86_64/badge/icon'></a></td>
+								</tr>
+								<tr>
+									<td><a href="https://github.com/SaturnSDK/Saturn-SDK-IDE">Code::Blocks IDE</a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_ide_linux_i686'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_ide_linux_i686/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_ide_linux_x86_64'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_ide_linux_x86_64/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_ide_windows_i686'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_ide_windows_i686/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_ide_windows_x86_64'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_ide_windows_x86_64/badge/icon'></a></td>
+								</tr>
+								<tr>
+									<td><a href="https://github.com/SaturnSDK/Saturn-SDK-MSYS2">MSYS 2</a></td>
+									<td colspan=2/>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_msys2_w64-mingw32_i686/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_msys2_w64-mingw32_i686/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_msys2_w64-mingw32_x86_64/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_msys2_w64-mingw32_x86_64/badge/icon'></a></td>
+								</tr>
+								<tr>
+									<td><a href="https://github.com/SaturnSDK/Saturn-SDK-Installer">Installer</a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_installer_linux_i686/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_installer_linux_i686/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_installer_linux_x86_64/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_installer_linux_x86_64/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_installer_w64-mingw32_i686/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_installer_w64-mingw32_i686/badge/icon'></a></td>
+									<td><a href='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_installer_w64-mingw32_x86_64/'><img src='https://ci.opengamedevelopers.org/view/SEGA%20Saturn%20SDK/job/sega_saturn_sdk_installer_w64-mingw32_x86_64/badge/icon'></a></td>
+								</tr>
+							</table>
 						</td>
 					</br>
 					<tr style="background:#600000">
@@ -69,7 +101,7 @@
 					</br>-->
 					<tr style="background:#600000">
 						<!-- Platforms -->
-						<td colspan="2">Platforms: Linux, Windows</td>
+						<td colspan="2">Platforms: GNU/Linux, Windows</td>
 					</tr>
 				</table>
 			</div>
